@@ -2,6 +2,9 @@ p {
     margin-bottom: 1rem;
 }
 .counter {
+    &.alternative {
+        background: orange;
+    }
     padding: 10px;
     .counter-controls {
         display: inline-block;
